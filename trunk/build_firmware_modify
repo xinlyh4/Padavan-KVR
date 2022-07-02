@@ -59,7 +59,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_FRPS=n" >> .config #frps
 echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto
 #echo "CONFIG_FIRMWARE_INCLUDE_NPC=n" >> .config #npc
 ##云盘挂载##
-echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=y" >> .config #阿里云盘
+echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config #阿里云盘
 sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y/g' .config
 
 fi
