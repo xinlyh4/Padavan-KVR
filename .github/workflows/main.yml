@@ -23,6 +23,8 @@ jobs:
         include:
           - build_variant: "mt7621"
             targets: "CR660x"
+          - build_variant: "mt7620"
+            targets: "PSG1218"
             #targets: "WR1200JS K2P DIR-878 CR660x JCG-Q20 MI-4"
           #- build_variant: "mt7621-usb-1"
             #targets: "XY-C1 JCG-836PRO JCG-Y2 NEWIFI ZTE-E8820S B70"
